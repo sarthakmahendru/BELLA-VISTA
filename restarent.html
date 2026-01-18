@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="character image 2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="restarent.css">
+    <title>restarent</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="loga">
+                    <h1>BELLA VISTA</h1>
+                    <span class="tagline">Authentic Italian Cuisine</span>
+                </div>
+                <ul class="nav-link">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to bella vista</h2>
+                <p>Experience the Authentic taste of italy in the heart of city</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-subtitle">Discover our carefully crafted dishes</p>
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h3>Appetizers</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Bruschetta Italiana</h4>
+                                    <p>French tomatoes , basil, and mozzarella on toasted bread</p>
+                                </div>
+                                <span class="price">$12</span>
+                            </div>
+
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Antipasto platter</h4>
+                                    <p>Selection of cured meats, cheeses and marinated vegetables</p>
+                                </div>
+                                <span class="price">$18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Bella Vista</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam est, soluta, iusto, repellat aut pariatur ipsa qui modi voluptates tenetur officiis fugit et cum beatae molestias ad? Libero, accusantium!
+                        Rerum impedit necessitatibus veniam culpa sint, quod dignissimos est rem accusantium non earum placeat provident a nulla blanditiis possimus labore voluptas eum quis optio! Aspernatur provident voluptatem porro blanditiis dolorem.
+                        Modin n b itaque, dolor quod iure quisquam fugiat laborum accusamus tenetur blanditiis. At nisi itaque temporibus illum possimus ipsum dicta harum dolor voluptatum earum? Animi recusandae nesciunt qui omnis odio dicta?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab minima ratione consequatur pariatur laudantium deserunt hic quod esse cupiditate? Consectetur, rerum! Voluptas repellendus tempora cupiditate? Voluptate excepturi laudantium dolorum nesciunt.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="character image 2.jpg" alt="two friends ">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contct Us</h2>
+                <div class="contact-table">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>123 Italian street, city Center</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <p>(555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>info@bellavista.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                            <h3>Make a Reservation</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Full Name:</label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" name="phone" id="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">Reservation Date:</label>
+                                    <input type="date" name="date" id="date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="time">Time:</label>
+                                    <select name="time" id="time">
+                                        <option value="">Select Time</option>
+                                        <option value="18:00">6:00 PM</option>
+                                        <option value="19:00">7:00 PM</option>
+                                        <option value="20:00">8:00 PM</option>
+                                        <option value="21:00">9:00 PM</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="guests">Number of Guest:</label>
+                                    <select name="guests" id="guests">
+                                        <option value="">Select guests</option>
+                                        <option value="1">1 Guest</option>
+                                        <option value="2">2 Guests</option>
+                                        <option value="3">3 Guests</option>
+                                        <option value="4">4 Guests</option>
+                                        <option value="5">5+ Guests</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Special Request:</label>
+                                    <textarea name="message" id="message" rows="4" placeholder="Any special adding Request or Requirments"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit Reservation</button>
+                            </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bella Vista</h3>
+                    <p>Authentic Italian Cuisine in the heart of the city. Expensive the taste of italy with every bite.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Monday-Thursday:11:00am-10:00pm</p>
+                    <p>Friday-Saturday:11:00am-11:00pm</p>
+                    <p>Sunday:12:00pm-9:00pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Restaurant.All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
